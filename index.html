@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Ali Majid — Programmer specializing in web development with HTML, CSS, JavaScript, and Node.js. Explore my projects and get in touch."
+        />
+        <meta name="author" content="Ali Majid" />
+        <meta property="og:title" content="Ali Majid - Portfolio" />
+        <meta
+            property="og:description"
+            content="Crafting digital experiences with precision and curiosity. A beginner programmer turning logic into seamless solutions."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="assets/profile.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a0f1c'/><text x='50' y='72' text-anchor='middle' font-size='52' font-weight='bold' fill='%2310b981' font-family='monospace'>%3C/%3E</text></svg>"
+        />
+        <title>Ali Majid - Portfolio</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Fira+Code:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <!-- Skip Navigation -->
+        <a href="#main-content" class="skip-nav">Skip to main content</a>
+
+        <!-- Navigation -->
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span class="logo-symbol" aria-hidden="true"
+                        >&lt;/&gt;</span
+                    >
+                    <span class="logo-text">ALI MAJID</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+                <button
+                    type="button"
+                    class="nav-toggle"
+                    id="mobile-menu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation menu"
+                >
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+
+        <main id="main-content">
+            <!-- Hero Section -->
+            <section id="home" class="hero">
+                <div class="hero-container">
+                    <div class="hero-content">
+                        <div class="hero-tag">HEY, I'M ALI MAJID</div>
+                        <h1 class="hero-title">
+                            <span class="title-main">I'M</span>
+                            <span class="title-sub">PROGRAMMER</span>
+                        </h1>
+                        <p class="hero-description">
+                            Crafting digital experiences with precision and
+                            curiosity. A beginner programmer turning logic into
+                            seamless solutions.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary"
+                                >EXPLORE_LABS</a
+                            >
+                            <a href="#contact" class="btn btn-outline"
+                                >SYNC_NOW</a
+                            >
+                        </div>
+                    </div>
+                    <div class="hero-code">
+                        <div class="code-window">
+                            <div class="code-header">
+                                <div class="code-dot red"></div>
+                                <div class="code-dot yellow"></div>
+                                <div class="code-dot green"></div>
+                                <span class="code-title">profile.json</span>
+                            </div>
+                            <div class="code-body">
+                                <pre><code><span class="code-bracket">{</span>
+  <span class="code-key">"name"</span>: <span class="code-value">"Ali Majid"</span>,
+  <span class="code-key">"role"</span>: <span class="code-value">"programmer"</span>,
+  <span class="code-key">"mission"</span>: <span class="code-value">"Build Better"</span>,
+  <span class="code-key">"status"</span>: <span class="code-value">"Available"</span>,
+  <span class="code-key">"passion"</span>: [<span class="code-string">"Web Dev"</span>, <span class="code-string">"Problem Solving"</span>, <span class="code-string">"Learning"</span>],
+  <span class="code-key">"skills"</span>: {
+    <span class="code-key">"frontend"</span>: [<span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>, <span class="code-string">"Vanilla JS"</span>],
+    <span class="code-key">"backend"</span>: [<span class="code-string">"Python"</span>, <span class="code-string">".NET Core"</span>],
+    <span class="code-key">"database"</span>: [<span class="code-string">"MySQL"</span>, <span class="code-string">"MSSQL"</span>, <span class="code-string">"PostgreSQL"</span>],
+    <span class="code-key">"learning"</span>: <span class="code-value">"always"</span>
+  }
+<span class="code-bracket">}</span></code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="about-grid">
+                        <div class="about-image">
+                            <div class="image-frame">
+                                <img
+                                    src="assets/profile.png"
+                                    alt="Ali Majid"
+                                    loading="lazy"
+                                />
+                                <div class="image-badge">
+                                    <i
+                                        class="fas fa-code"
+                                        aria-hidden="true"
+                                    ></i>
+                                    <span>New Devs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-content">
+                            <p class="section-label">// SYSTEM_PROFILE</p>
+                            <h2 class="about-title">
+                                System Profile:
+                                <span class="highlight">Ali Majid</span>
+                            </h2>
+                            <p class="about-text">
+                                My journey into the digital world began with a
+                                simple curiosity. What started as "just another
+                                site visit" quickly evolved into a deep
+                                fascination. I didn't just write lines; I wrote
+                                narratives for my own understanding.
+                            </p>
+                            <p class="about-text">
+                                I believe that every line of code tells a story,
+                                I am devoted to uncovering the philosophy hidden
+                                in the "Ctrl+S" moment—where artistry meets
+                                logic, and interface becomes integrity and
+                                user-centric design.
+                            </p>
+                            <div class="about-stats">
+                                <div class="stat-card">
+                                    <span class="stat-value">3+</span>
+                                    <span class="stat-label"
+                                        >Years Experience</span
+                                    >
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-value">3+</span>
+                                    <span class="stat-label"
+                                        >Self-Built Projects</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Tech Ecosystem</h2>
+                        <p class="section-subtitle">// EVOLVE_TO_INNOVATE</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="skill-name">HTML / CSS</h3>
+                            <div
+                                class="skill-progress"
+                                role="progressbar"
+                                aria-valuenow="75"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-label="HTML/CSS proficiency 75%"
+                            >
+                                <div
+                                    class="progress-bar"
+                                    style="width: 75%"
+                                ></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="skill-name">JavaScript</h3>
+                            <div
+                                class="skill-progress"
+                                role="progressbar"
+                                aria-valuenow="60"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-label="JavaScript proficiency 60%"
+                            >
+                                <div
+                                    class="progress-bar"
+                                    style="width: 60%"
+                                ></div>
+                            </div>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-python" aria-hidden="true"></i>
+                            </div>
+                            <h3 class="skill-name">Python</h3>
+                            <div
+                                class="skill-progress"
+                                role="progressbar"
+                                aria-valuenow="30"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-label="Python proficiency 30%"
+                            >
+                                <div
+                                    class="progress-bar"
+                                    style="width: 30%"
+                                ></div>
+                            </div>
+                            <span class="skill-percent">30%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i
+                                    class="fab fa-git-alt"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                            <h3 class="skill-name">Version Control</h3>
+                            <div
+                                class="skill-progress"
+                                role="progressbar"
+                                aria-valuenow="75"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-label="Version Control proficiency 75%"
+                            >
+                                <div
+                                    class="progress-bar"
+                                    style="width: 75%"
+                                ></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i
+                                    class="fab fa-microsoft"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                            <h3 class="skill-name">.NET Core</h3>
+                            <div
+                                class="skill-progress"
+                                role="progressbar"
+                                aria-valuenow="55"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-label=".NET Core proficiency 55%"
+                            >
+                                <div
+                                    class="progress-bar"
+                                    style="width: 55%"
+                                ></div>
+                            </div>
+                            <span class="skill-percent">55%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i
+                                    class="fas fa-database"
+                                    aria-hidden="true"
+                                ></i>
+                            </div>
+                            <h3 class="skill-name">Database</h3>
+                            <div class="skill-tags">
+                                <span class="skill-sub-tag">MariaDB</span>
+                                <span class="skill-sub-tag">MySQL</span>
+                                <span class="skill-sub-tag">SQL Server</span>
+                                <span class="skill-sub-tag">PostgreSQL</span>
+                            </div>
+                            <div
+                                class="skill-progress"
+                                role="progressbar"
+                                aria-valuenow="65"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                aria-label="Database proficiency 65%"
+                            >
+                                <div
+                                    class="progress-bar"
+                                    style="width: 65%"
+                                ></div>
+                            </div>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects">
+                <div class="container">
+                    <div class="projects-header">
+                        <div class="header-text">
+                            <h2 class="section-title">Featured Deployments</h2>
+                            <p class="section-subtitle">
+                                Notable projects from the architectural
+                                archives. Ranging from basic scripts to
+                                interactive UI experiences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="projects-grid">
+                        <div class="project-card featured">
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <span class="project-tag">FINANCIAL</span>
+                                </div>
+                                <h3 class="project-title">
+                                    <span class="title-highlight"
+                                        >CashPlow</span
+                                    >
+                                    <span class="title-outline">PROJECT</span>
+                                </h3>
+                                <p class="project-name">Financial Tracker</p>
+                                <p class="project-description">
+                                    CashPlow is a modern web-based budget
+                                    tracker application designed to help you
+                                    monitor your expenses, income, and transfers
+                                    between wallets with a clean, responsive,
+                                    and easy-to-use interface.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Vue 3</span>
+                                    <span class="tech-tag">Nuxt 4</span>
+                                    <span class="tech-tag">Tailwind CSS</span>
+                                    <span class="tech-tag"
+                                        >PostgreSQL [NeonDB]</span
+                                    >
+                                </div>
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/Fatazh/CiPlow"
+                                        class="project-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="CashPlow source code on GitHub (opens in new tab)"
+                                        ><i
+                                            class="fab fa-github"
+                                            aria-hidden="true"
+                                        ></i>
+                                        SRC</a
+                                    >
+                                    <a
+                                        href="https://mop.my.id"
+                                        class="project-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="CashPlow live demo (opens in new tab)"
+                                        ><i
+                                            class="fas fa-external-link-alt"
+                                            aria-hidden="true"
+                                        ></i>
+                                        LIVE</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="project-image">
+                                <img
+                                    src="assets/project/CashPlow.png"
+                                    alt="CashPlow Financial Tracker - Dashboard screenshot"
+                                    loading="lazy"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <span class="project-tag">UTILITY</span>
+                                </div>
+                                <h3 class="project-title">Task Runner</h3>
+                                <p class="project-description">
+                                    Command-line productivity tools designed for
+                                    developer workflows.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">CLI</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <span class="project-tag">AUTOMATION</span>
+                                </div>
+                                <h3 class="project-title">Log Generator</h3>
+                                <p class="project-description">
+                                    Automated documentation system for
+                                    streamlined workflows.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Python</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card full-width">
+                            <div class="project-content">
+                                <div class="project-header">
+                                    <span class="project-tag"
+                                        >EXPERIMENTAL</span
+                                    >
+                                </div>
+                                <h3 class="project-title">ReSearchAI</h3>
+                                <p class="project-description">
+                                    An AI-based research assistant that uses RAG
+                                    (Retrieval-Augmented Generation)
+                                    architecture to accurately answer questions
+                                    from research PDF documents, complete with
+                                    automatic citations.
+                                </p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">ViteJs</span>
+                                    <span class="tech-tag">Python</span>
+                                </div>
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/Fatazh/ResearchAI"
+                                        class="project-link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="ReSearchAI source code on GitHub (opens in new tab)"
+                                        ><i
+                                            class="fab fa-github"
+                                            aria-hidden="true"
+                                        ></i>
+                                        SRC</a
+                                    >
+                                </div>
+                            </div>
+                            <div class="project-image">
+                                <img
+                                    src="assets/project/ResearchAI.png"
+                                    alt="ReSearchAI - AI Research Assistant screenshot"
+                                    loading="lazy"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="contact-content">
+                        <h2 class="contact-title">
+                            <span class="title-outline">Ready to</span>
+                            <span class="title-highlight">Synchronize?</span>
+                        </h2>
+                        <p class="contact-description">
+                            Open to exciting collaborations. Got an idea or a
+                            project in mind? Let's build something together.
+                        </p>
+                        <a
+                            href="mailto:nuralimajids@gmail.com"
+                            class="btn btn-primary btn-large"
+                        >
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            NURALIMAJIDS@GMAIL.COM
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <span class="footer-symbol" aria-hidden="true"
+                            >&lt;/&gt;</span
+                        >
+                        <span class="footer-text">AKUNKU</span>
+                    </div>
+                    <div class="footer-right">
+                        <span class="footer-copy">© 2026</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
